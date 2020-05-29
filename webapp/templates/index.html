@@ -24,7 +24,7 @@
     <meta name="twitter:title" content="Specso Technologies is best IT software company in Dehradun-India">
     <!--end twitter tag-->
     {% endblock %}
-    {% load staticfiles %}
+    {% load static %}
     {% block content %}  
     <!-- header area start -->
     <div class="header-area header-bg">
@@ -47,7 +47,7 @@
                         <div class="col-lg-6 col-md-6 hidden-sm">
                             <div class="banner-thumb-wrap">
                                 <div class="banner-thumb">
-                                    <img class="header-inner-img" src="assets/img/slider/accountiee_online_billing_software.jpg" alt="Accountiee Online Billing Software">
+                                    <img class="header-inner-img" src="{% static 'img/slider/accountiee_online_billing_software.jpg' %}" alt="Accountiee Online Billing Software">
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         <div class="col-lg-6 col-md-6 hidden-sm">
                             <div class="banner-thumb-wrap">
                                 <div class="banner-thumb">
-                                    <img class="header-inner-img" src="assets/img/slider/online_classes_dkaksha.jpg" alt="Online Classes Dkaksha">
+                                    <img class="header-inner-img" src="{% static 'img/slider/online_classes_dkaksha.jpg' %}" alt="Online Classes Dkaksha">
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                         <div class="col-lg-6 col-md-6 hidden-sm">
                             <div class="banner-thumb-wrap">
                                 <div class="banner-thumb">
-                                    <img class="header-inner-img" src="assets/img/slider/online_medical_management_system_spec.jpg" alt="Online Medical Management System Spec+">
+                                    <img class="header-inner-img" src="{% static 'img/slider/online_medical_management_system_spec.jpg" alt="Online Medical Management System Spec+' %}">
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                         <div class="col-lg-6 col-md-6 hidden-sm">
                             <div class="banner-thumb-wrap">
                                 <div class="banner-thumb">
-                                    <img class="header-inner-img" src="assets/img/slider/online_erp_system_stack.jpg" alt="Online ERP System Stack">
+                                    <img class="header-inner-img" src="{% static 'img/slider/online_erp_system_stack.jpg' %}" alt="Online ERP System Stack">
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@
                         <div class="col-lg-6 col-md-6 hidden-sm">
                             <div class="banner-thumb-wrap">
                                 <div class="banner-thumb">
-                                    <img class="header-inner-img" src="assets/img/slider/social_connect_social_media_marketing_software.jpg" alt="Online ERP System Stack">
+                                    <img class="header-inner-img" src="{% static 'img/slider/social_connect_social_media_marketing_software.jpg' %}" alt="Online ERP System Stack">
                                 </div>
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.1s">
                         <div class="media">
-                            <img src="assets/img/services_svg/web_development_service.svg" alt="web_development_service">
+                            <img src="{% static 'img/services_svg/web_development_service.svg' %}" alt="web_development_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Web Development</h6></a>
                             </div>
@@ -175,7 +175,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.3s">
                         <div class="media">
-                            <img src="assets/img/services_svg/e_commerce_service.svg" alt="E-Commerce_service">
+                            <img src="{% static 'img/services_svg/e_commerce_service.svg' %}" alt="E-Commerce_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6> E-Commerce Development</h6></a>
                             </div>
@@ -185,7 +185,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.5s">
                         <div class="media">
-                            <img src="assets/img/services_svg/software_development_service.svg" alt="offer" align="software_development_service">
+                            <img src="{% static 'img/services_svg/software_development_service.svg' %}" alt="offer" align="software_development_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Software Development</h6></a>
                             </div>
@@ -195,7 +195,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.7s">
                         <div class="media">
-                            <img src="assets/img/services_svg/mobile_application_development_service.svg" alt="mobile_application_development_service">
+                            <img src="{% static 'img/services_svg/mobile_application_development_service.svg' %}" alt="mobile_application_development_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Mobile Application Development</h6></a>
                             </div>
@@ -205,7 +205,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.8s">
                         <div class="media">
-                            <img src="assets/img/services_svg/erp_system_service.svg" alt="erp_system_service">
+                            <img src="{% static 'img/services_svg/erp_system_service.svg' %}" alt="erp_system_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>ERP Systems</h6>
                             </div>
@@ -215,7 +215,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="1.0s">
                         <div class="media">
-                            <img src="assets/img/services_svg/database_managment_system_service.svg" alt="database_managment_system_service">
+                            <img src="{% static 'img/services_svg/database_managment_system_service.svg' %}" alt="database_managment_system_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Database Managment System</h6></a>
                             </div>
@@ -225,7 +225,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="1.0s">
                         <div class="media">
-                            <img src="assets/img/services_svg/search_engine_optimization_service.svg" alt="search_engine_optimization_service">
+                            <img src="{% static 'img/services_svg/search_engine_optimization_service.svg' %}" alt="search_engine_optimization_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Search Engine Optimization</h6></a>
                             </div>
@@ -235,7 +235,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="1.0s">
                         <div class="media">
-                            <img src="assets/img/services_svg/social_media_marketing_service.svg" alt="social_media_marketing_service">
+                            <img src="{% static 'img/services_svg/social_media_marketing_service.svg" alt="social_media_marketing_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Social Media Marketing</h6></a>
                             </div>
@@ -245,7 +245,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="1.0s">
                         <div class="media">
-                            <img src="assets/img/services_svg/graphic_designing_service.svg" alt="graphic_designing_service">
+                            <img src="{% static 'img/services_svg/graphic_designing_service.svg' %}" alt="graphic_designing_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Graphic Designing</h6></a>
                             </div>
@@ -255,7 +255,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-offer wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="1.0s">
                         <div class="media">
-                            <img src="assets/img/services_svg/web_hosting_service.svg" alt="web_hosting_service">
+                            <img src="{% static 'img/services_svg/web_hosting_service.svg' %}" alt="web_hosting_service">
                             <div class="media-body align-self-center">
                                 <a href=""><h6>Web Hosting</h6></a>
                             </div>
@@ -279,31 +279,31 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="riyaqas-check-list">
-                                <img class="media-left" src="assets/img/icons/9.svg" alt="check">
+                                <img class="media-left" src="{% static 'img/icons/9.svg' %}" alt="check">
                                 <span>Our Team</span>
                                 <p>Our team is specialized in delivering an extensive array of web-based softwares for all types of industries.</p>
                             </div>
                             <div class="riyaqas-check-list">
-                                <img class="media-left" src="assets/img/icons/12.svg" alt="check">
+                                <img class="media-left" src="{% static 'img/icons/12.svg" alt="check">
                                 <span>Happy Clients</span>
                                 <p>We satisfied our clients with a good services</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="riyaqas-check-list">
-                                <img class="media-left" src="assets/img/icons/12.svg" alt="check">
+                                <img class="media-left" src="{% static 'img/icons/12.svg' %}" alt="check">
                                 <span>Transparency</span>
                                 <p>We report you daily & weekly with all the minute project details & take suggestions if required.</p>
                             </div>
                             <div class="riyaqas-check-list">
-                                <img class="media-left" src="assets/img/icons/12.svg" alt="check">
+                                <img class="media-left" src="{% static 'img/icons/12.svg' %}" alt="check">
                                 <span>Free Consultation</span>
                                 <p>Get in touch for a free consultation with Us. Find out what we can do to help your business succeed online.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="riyaqas-check-list">
-                                <img class="media-left" src="assets/img/icons/11.svg" alt="check">
+                                <img class="media-left" src="{% static 'img/icons/11.svg' %}" alt="check">
                                 <span>Delivery on Time</span>
                                 <p>We committed to Our Customer provide complete data & get projects delivery on time.</p>
                             </div>
@@ -320,8 +320,8 @@
     <!-- why choose specso technologies End -->
 
     <!-- Technology and Development Stack start -->
-    <div class="sbs-what-riyaqas pd-default-120" style="background-image:url(assets/img/bg/1h1.png);">
-    <div class="container">
+    <div class="sbs-what-riyaqas pd-default-120" style="background-image:url({% static 'img/bg/1h1.png' %});">
+    <div class="container">' %}
             <div class="job-position-area">
                 <div class="row justify-content-center">
                     <div class="col-xl-12">
@@ -335,31 +335,31 @@
                                 <div class="single-offer">
                                     <h4 align="center">Trending</h4><hr>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/Artificial_Intelligence.png" alt="Artificial_Intelligence">
+                                        <img src="{% static 'img/technology_stack/Artificial_Intelligence.png' %}" alt="Artificial_Intelligence">
                                         <div class="media-body align-self-center">
                                             <h6>Artificial Intelligence</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/block_chain.png" alt="block_chain">
+                                        <img src="{% static 'img/technology_stack/block_chain.png' %}" alt="block_chain">
                                         <div class="media-body align-self-center">
                                             <h6>Block Chain</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/cloud_computing.png" alt="cloud_computing">
+                                        <img src="{% static 'img/technology_stack/cloud_computing.png' %}" alt="cloud_computing">
                                         <div class="media-body align-self-center">
                                             <h6>Cloud Computing</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/chatbot.png" alt="chat_bot">
+                                        <img src="{% static 'img/technology_stack/chatbot.png' %}" alt="chat_bot">
                                         <div class="media-body align-self-center">
                                             <h6>Chat Bot</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/machine_learning.png" alt="machine_learning">
+                                        <img src="{% static 'img/technology_stack/machine_learning.png' %}" alt="machine_learning">
                                         <div class="media-body align-self-center">
                                             <h6>Machine Learning</h6>
                                         </div>
@@ -370,37 +370,37 @@
                                 <div class="single-offer">
                                     <h4 align="center">JS Stack</h4><hr>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/AngularJs.png" alt="AngularJs">
+                                        <img src="{% static 'img/technology_stack/AngularJs.png' %}" alt="AngularJs">
                                         <div class="media-body align-self-center">
                                             <h6>Angular JS</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/BackboneJs.png" alt="BackboneJs">
+                                        <img src="{% static 'img/technology_stack/BackboneJs.png' %}" alt="BackboneJs">
                                         <div class="media-body align-self-center">
                                             <h6>Backbone JS</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/ElectronJs.png" alt="ElectronJs">
+                                        <img src="{% static 'img/technology_stack/ElectronJs.png' %}" alt="ElectronJs">
                                         <div class="media-body align-self-center">
                                             <h6>Electron Js</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/NodeJs.png" alt="NodeJs">
+                                        <img src="{% static 'img/technology_stack/NodeJs.png' %}" alt="NodeJs">
                                         <div class="media-body align-self-center">
                                             <h6>Node JS</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/ReactJs.png" alt="Reactjs">
+                                        <img src="{% static 'img/technology_stack/ReactJs.png' %}" alt="Reactjs">
                                         <div class="media-body align-self-center">
                                             <h6>React JS</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/VueJs.png" alt="VueJs">
+                                        <img src="{% static 'img/technology_stack/VueJs.png' %}" alt="VueJs">
                                         <div class="media-body align-self-center">
                                             <h6>Vue JS</h6>
                                         </div>
@@ -411,31 +411,31 @@
                                 <div class="single-offer">
                                     <h4 align="center">Data Base</h4><hr>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/mysql.png" alt="mysql">
+                                        <img src="{% static 'img/technology_stack/mysql.png' %}" alt="mysql">
                                         <div class="media-body align-self-center">
                                             <h6>My Sql</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/mongodb.png" alt="mongodb">
+                                        <img src="{% static 'img/technology_stack/mongodb.png' %}" alt="mongodb">
                                         <div class="media-body align-self-center">
                                             <h6>Mongo DB</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/oracle.png" alt="oracle">
+                                        <img src="{% static 'img/technology_stack/oracle.png' %}" alt="oracle">
                                         <div class="media-body align-self-center">
                                             <h6>Oracle</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/postgresql.png" alt="postgresql">
+                                        <img src="{% static 'img/technology_stack/postgresql.png' %}" alt="postgresql">
                                         <div class="media-body align-self-center">
                                             <h6>Postgre Sql</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/sql_server.png" alt="sql_server">
+                                        <img src="{% static 'img/technology_stack/sql_server.png' %}" alt="sql_server">
                                         <div class="media-body align-self-center">
                                             <h6>SQL Server</h6>
                                         </div>
@@ -447,31 +447,31 @@
                                 <div class="single-offer">
                                     <h4 align="center">Languages</h4><hr>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/C_Cplusplus.png" alt="C_Cplusplus">
+                                        <img src="{% static 'img/technology_stack/C_Cplusplus.png" alt="C_Cplusplus">
                                         <div class="media-body align-self-center">
                                             <h6>C/C++</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/Java.png" alt="Java">
+                                        <img src="{% static 'img/technology_stack/Java.png' %}" alt="Java">
                                         <div class="media-body align-self-center">
                                             <h6>Java</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/python.png" alt="python">
+                                        <img src="{% static 'img/technology_stack/python.png' %}" alt="python">
                                         <div class="media-body align-self-center">
                                             <h6>Python</h6>
                                         </div>
                                     </div>
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/php.png" alt="php">
+                                        <img src="{% static 'img/technology_stack/php.png' %}" alt="php">
                                         <div class="media-body align-self-center">
                                             <h6>Php</h6>
                                         </div>
                                     </div> 
                                     <div class="media technology_stack">
-                                        <img src="assets/img/technology_stack/ruby.png" alt="ruby">
+                                        <img src="{% static 'img/technology_stack/ruby.png' %}" alt="ruby">
                                         <div class="media-body align-self-center">
                                             <h6>Ruby</h6>
                                         </div>
@@ -493,7 +493,7 @@
             <div class="row">
                 <div class="col-xl-8 col-lg-9">
                     <div class="thumb">
-                        <img src="assets/img/others/7.png" alt="goal">
+                        <img src="{% static 'img/others/7.png' %}" alt="goal">
                     </div>
                     <div class="goal-counter">
                         <div class="section-title">
@@ -541,7 +541,7 @@
                 <div class="client-slider-item">
                     <div class="media">
                         <div class="media-left media-left-one">
-                            <img src="assets/img/client/4.png" alt="client">
+                            <img src="{% static 'img/client/4.png' %}" alt="client">
                         </div>
                         <div class="media-body">
                             <h6>Ashraf Ali</h6>
@@ -553,7 +553,7 @@
                 <div class="client-slider-item">
                     <div class="media">
                         <div class="media-left media-left-two">
-                            <img src="assets/img/client/5.png" alt="client">
+                            <img src="{% static 'img/client/5.png' %}" alt="client">
                         </div>
                         <div class="media-body">
                             <h6>Dr. Riju Kumar,</h6>
@@ -565,7 +565,7 @@
                 <div class="client-slider-item">
                     <div class="media">
                         <div class="media-left media-left-three">
-                            <img src="assets/img/client/Mr.Ashok.jpg" alt="client">
+                            <img src="{% static 'img/client/Mr.Ashok.jpg' %}" alt="client">
                         </div>
                         <div class="media-body">
                             <h6>Ashok Kumar</h6>
@@ -577,7 +577,7 @@
                 <div class="client-slider-item">
                     <div class="media">
                         <div class="media-left media-left-three">
-                            <img src="assets/img/client/6.png" alt="client">
+                            <img src="{% static 'img/client/6.png' %}" alt="client">
                         </div>
                         <div class="media-body">
                             <h6>Cpt. Shubham Tyagi,</h6>
