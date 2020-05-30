@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <g id="icon_brand" transform="translate(-554 -1978)">
+    <g id="Group_2367" data-name="Group 2367" transform="translate(554 1978)">
+      <path id="Path_5328" data-name="Path 5328" d="M40.5,81A40.5,40.5,0,1,1,81,40.5,40.546,40.546,0,0,1,40.5,81Zm0-76.14A35.64,35.64,0,1,0,76.14,40.5,35.68,35.68,0,0,0,40.5,4.86Z" fill="#01358d"/>
+    </g>
+    <g id="Rectangle_696" data-name="Rectangle 696" transform="translate(576.065 1998)" fill="#fff" stroke="#f9556d" stroke-width="3.3">
+      <rect width="38.661" height="19.33" rx="2" stroke="none"/>
+      <rect x="1.65" y="1.65" width="35.361" height="16.03" rx="0.35" fill="none"/>
+    </g>
+    <g id="Rectangle_697" data-name="Rectangle 697" transform="translate(576.065 2020.742)" fill="#fff" stroke="#f9556d" stroke-width="3.3">
+      <rect width="18.256" height="18.256" rx="9" stroke="none"/>
+      <rect x="1.65" y="1.65" width="14.956" height="14.956" rx="7.35" fill="none"/>
+    </g>
+    <g id="Rectangle_698" data-name="Rectangle 698" transform="translate(596.469 2020.742)" fill="#fff" stroke="#f9556d" stroke-width="3.3">
+      <rect width="18.256" height="18.256" rx="2" stroke="none"/>
+      <rect x="1.65" y="1.65" width="14.956" height="14.956" rx="0.35" fill="none"/>
+    </g>
+    <g id="Ellipse_1598" data-name="Ellipse 1598" transform="translate(618 1990)" fill="#f9556d" stroke="#fff" stroke-width="2.5">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="5.75" fill="none"/>
+    </g>
+  </g>
+</svg>
