@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
+{% extends "common.html" %}
+{% block title %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -35,466 +32,211 @@
     <!--Codingeek -->
     <link rel="stylesheet" href="../../codingeek-js/codingeek.css">    
 
-</head>
-<body>
-
-<!-- preloader area start -->
-<div class="preloader" id="preloader">
-    <div class="preloader-inner">
-        <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
-        </div>
-    </div>
-</div>
-<!-- preloader area end -->
-
-<!-- search Popup -->
-<div class="body-overlay" id="body-overlay"></div>
-<div class="search-popup" id="search-popup">
-    <form action="https://codingeek.net/html/riyaqas/index.html" class="search-form">
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search.....">
-        </div>
-        <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-    </form>
-</div>
-<!-- //. search Popup -->
-
-<!-- navbar area start -->
-<nav class="navbar navbar-area navbar-expand-lg nav-style-01">
-    <div class="container nav-container">
-        <div class="responsive-mobile-menu">
-            <div class="logo-wrapper mobile-logo">
-                <a href="index-2.html" class="logo">
-                    <img src="assets/img/logo.png" alt="logo">
-                </a>
-            </div>
-            <div class="nav-right-content">
-                <ul>
-                <li class="search">
-                    <i class="ti-search"></i>
-                </li>
-                <li class="menu-item">
-                    <a href="https://codingeek.net/login/" class="login-button"><i class="fa fa-sign-in"></i> Login/Register</a>
-                </li>
-            </ul>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Riyaqas_main_menu" 
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggle-icon">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="Riyaqas_main_menu">
-            <div class="logo-wrapper desktop-logo">
-                <a href="index.html" class="logo">
-                    <img src="assets/img/logo.png" alt="specso_technologies_software_development_company_in_india">
-                </a>
-            </div>
-            <ul class="navbar-nav">
-                <li>
-                    <a href="about_specso_technologies_software_development_company_in_india.html">About</a>
-                </li>
-                 <li class="menu-item-has-children">
-                    <a href="#">Products</a>
-                    <ul class="sub-menu">
-                        <li><a href="accountiee_online_billing_software.html">Accountiee</a></li>
-                        <li><a href="dkaksha_online_classes_software.html">Dkaksha</a></li>
-                        <li><a href="spec+_artificial_software.html">Spec+</a></li>
-                        <li><a href="stack_erp_system.html">Stack</a></li>
-                        <li><a href="social_connect_automation_software.html">Social Connect</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Services</a>
-                    <ul class="sub-menu">
-                        <li><a href="web_development_services_of_specso_technologies.html"> Website Development</a></li>
-                        <li><a href="e_commerce_services_of_specso_technologies.html"> E-Commerce Development</a></li>
-                        <li><a href="software_development_services_of_specso_technologies.html"> Software Development </a></li>
-                        <li><a href="mobile_application_development_services_of_specso_technologies.html"> Mobile App Development </a></li>
-                        <li><a href="erp_system_development_services_of_specso_technologies.html"> ERP Systems </a></li> 
-                        <li><a href="database_development_services_of_specso_technologies.html">Database Management Systems</a></li>
-                        <li><a href="search_engine_optimization_services_of_specso_technologies.html"> Search Engine Optimization </a></li>
-                        <li><a href="social_media_marketing_services_of_specso_technologies.html"> Social Media Marketing </a></li>
-                        <li><a href="graphic_designing_services_of_specso_technologies.html"> Graphic Designing </a></li>
-                        <li><a href="web_hosting_services_of_specso_technologies.html"> Web Hosting </a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="blogs_specso_technologies.html">Blog</a>
-                </li>
-                <li>
-                    <a href="career_specso_technologies.html.html">Career</a>
-                </li>
-                <li>
-                    <a href="work_of_specso_technologies_software_development_company_in_india.html">Our Work</a>
-                </li>
-                <li>
-                    <a href="contact_specso_technologies_software_development_company_in_india.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-right-content">
-            <ul>
-                <li class="search">
-                    <i class="ti-search"></i>
-                </li>
-                <li class="menu-item">
-                    <a href="login.html" class="login-button"><i class="fa fa-sign-in"></i> Login/Register</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- navbar area end -->
-
-<!-- about area start -->
-<div class="about-provide-area pd-top-120 bg-none">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-7 col-lg-6">
-                <div class="img-with-video">
-                    <div class="img-wrap">
-                        <img src="assets/img/we-provide/1.png" alt="video">
-                        <div class="hover">
-                            <a href="https://www.youtube.com/watch?v=c7XEhXZ_rsk" class="video-play-btn mfp-iframe"><img src="assets/img/we-provide/3.svg" alt="video"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-5 col-lg-6 desktop-center-item">
-                <div>
-                    <div class="section-title style-two">
-                        <h2 class="title">About<span> Specso Technologies</span></h2>
-                        <p>Riyaqas One of the best Software Development company. Riyaqas is at the forefront as the most innovative web development company. Our cost efficient and structured teamwork justifies our position. Our clients count on our offshore business solutions on a regular basis from concept.</p>
-                        <p>Design to development, testing & implementation, our team is here to support and guide you every step of the way. Riyaqas One of the best Software Development company.</p>
-                    </div>
-                </div>
+    {% endblock %}
+    {% load static %}
+    {% block content %}  
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
             </div>
         </div>
     </div>
-</div>
-<!-- about area End -->
+    <!-- preloader area end -->
 
-<!-- sbst service area start -->
-<div class="sbst-service-area pd-top-80">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-10">
-                <div class="section-title text-center">
-                    <h2 class="title">What We <span>Do?</span></h2>
-                    <p>Experion taps into the power of digital to develop custom software applications and products for industry domains.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row custom-gutters-20 justify-content-center">
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-service-2 text-center">
-                    <div class="thumb">
-                        <img src="assets/img/startup/service/3.svg" alt="service">
-                    </div>
-                    <h6>Web Development</h6>
-                    <p>Web Development is the base of the company , specso is essentially all about developing websites to provide every other buisness a platform to showcase their ideas and products.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-service-2 text-center">
-                    <div class="thumb">
-                        <img src="assets/img/startup/service/4.svg" alt="service">
-                    </div>
-                    <h6>Apps Development</h6>
-                    <p>We Develop light weight easy to use Mobile Applications that supports a wide varitey of end-users (online as well as offline) using java and js stack. </p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-service-2 text-center">
-                    <div class="thumb">
-                        <img src="assets/img/startup/service/2.svg" alt="service">
-                    </div>
-                    <h6>Software Development</h6>
-                    <p>Software Development is yet another core service of our company , we develop a scalable and user friendly solution that helps in making your life more easier and comfortable.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-service-2 text-center">
-                    <div class="thumb">
-                        <img src="assets/img/startup/service/1.svg" alt="service">
-                    </div>
-                    <h6>SEO, SMM</h6>
-                    <p>We provide a range of options for the Search Engine Optimization part including SERP (Search Engine Results Page ) Rankings .</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- sbst service area end -->
 
-<!-- team area Start -->
-<div class="team-area-wrpper about-team-area-wrpper pd-top-112 mg-top-120">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-10">
-                <div class="section-title text-center">
-                    <h2 class="title">Riyaqas Creative <span>Team</span></h2>
-                    <p>Riyaqas One of the best Software Development company. Riyaqas is at the forefront as the most innovative web development company. Our cost efficient and structured teamwork.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="team-area text-center">
+    <!-- about area start -->
+    <div class="about-provide-area pd-top-120 bg-none">
         <div class="container">
-            <div class="row custom-gutters-20">
-                <div class="col-lg-3 col-sm-6">
-                    
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-team">
-                        <div class="thumb">
-                            <img src="assets/img/startup/team/ayush_tyagi.jpg" alt="team">
-                        </div>
-                        <h6><a href="#">Ayush Tyagi</a></h6>
-                        <span>Founder</span>
-                        <p>Riyaqas One of the best Software Development company.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-team">
-                        <div class="thumb">
-                            <img src="assets/img/startup/team/shivani_dhyani.jpg" alt="team">
-                        </div>
-                        <h6><a href="#">Shivani Dhyani</a></h6>
-                        <span>Co-Founder</span>
-                        <p>Riyaqas One of the best Software Development company.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                   
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- team area End -->
-
-<!-- client area start -->
-<div class="client-area pd-top-110">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-9">
-                <div class="section-title style-two text-center">
-                    <h2 class="title">What Our <span>Client Say?</span></h2>
-                    <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests. Our support team will get assistance from AI-powered suggestions.</p>
-                </div>
-            </div>
-        </div>
-        <div class="client-slider">
-            <div class="client-slider-item">
-                <div class="media">
-                    <div class="media-left media-left-one">
-                        <img src="assets/img/client/4.png" alt="client">
-                    </div>
-                    <div class="media-body">
-                        <h6>Ashraf Ali</h6>
-                        <p>CEO of Kowcub</p>
-                    </div>
-                </div>
-                <p class="client-content">With Accountiee, you'll never find errors in your sales record even if thy are skyrocketing. And you'll be able to see all you transactions (UPI,Cash or credit) all at one place, Specso has impressed me by doing such a task in such small period of time .</p>
-            </div>
-            <div class="client-slider-item">
-                <div class="media">
-                    <div class="media-left media-left-two">
-                        <img src="assets/img/client/5.png" alt="client">
-                    </div>
-                    <div class="media-body">
-                        <h6>Dr. Riju Kumar,</h6>
-                        <p>Owner, Sukhayu Hospital</p>
-                    </div>
-                </div>
-                <p class="client-content">Specso understand the requirements with great focus on detailed services , unlimited revisions and client satisfaction, what more can you ask for.</p>
-            </div>
-            <div class="client-slider-item">
-                <div class="media">
-                    <div class="media-left media-left-three">
-                        <img src="assets/img/client/Mr.Ashok.jpg" alt="client">
-                    </div>
-                    <div class="media-body">
-                        <h6>Ashok Kumar</h6>
-                        <p>CEO , Sunlight Energy</p>
-                    </div>
-                </div>
-                <p class="client-content">Best thing about people at Specso is that they help you find the best solution in affordable price.</p>
-            </div>
-            <div class="client-slider-item">
-                <div class="media">
-                    <div class="media-left media-left-three">
-                        <img src="assets/img/client/6.png" alt="client">
-                    </div>
-                    <div class="media-body">
-                        <h6>Cpt. Shubham Tyagi,</h6>
-                        <p>Indian Army</p>
-                    </div>
-                </div>
-                <p class="client-content">People at Specso create an atmosphere of unique ideas and edge cases that tests the product you want to the rarest conditions possible making it a sustainable long term solution </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- client area End -->
-
-<!-- footer area start -->
-<footer class="footer-area footer-area-2 mg-top-105">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-7 col-lg-11 text-center">
-                <div class="section-title">
-                    <h2 class="title">Get our latest <span>Newslatter</span></h2>
-                    <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests. support team will get assistance from AI-powered suggestions.</p>
-                </div>
-                <div class="newsletter-subcribe">
-                    <form id="news-subcribeform" class="subcribe-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your E-mail..." name="mail" required="">
-                            <button type="submit" class="btn-blue subcribe-submit">submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="footer-widget-area mg-top-120">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget widget">
-                        <div class="about_us_widget">
-                            <a href="index-2.html" class="footer-logo"> 
-                                <img src="assets/img/logo.png" alt="footer logo">
-                            </a>
-                            <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests.</p>
-                            <ul class="social-icon">
-                                <li>
-                                    <a class="facebook" href="https://www.facebook.com/codingeek.net/" target="_blank"><i class="fa fa-facebook  "></i></a>
-                                </li>
-                                <li>
-                                    <a class="twitter" href="https://twitter.com/codingeeknet" target="_blank"><i class="fa fa-twitter  "></i></a>
-                                </li>
-                                <li>
-                                    <a class="linkedin" href="https://www.linkedin.com/company/codingeek/about/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a class="pinterest" href="https://www.instagram.com/codingeeknet/" target="_blank"><i class="fa fa-instagram"></i></a>
-                                </li>
-                            </ul>
-                       </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-widget widget ">
-                        <h4 class="widget-title">Contact</h4>
-                        <div class="contact_info_list">
-                            <p class="contact-content">Manama Tower, Badda Link Road, Badda Dhaka, Bangladesh</p>
-                            <p><span>Contact:</span> +088 012121240</p>
-                            <p><span>E-mail:</span> riyaqas@gmail.com</p>
+                <div class="col-xl-7 col-lg-6">
+                    <div class="img-with-video">
+                        <div class="img-wrap">
+                            <img src="assets/img/we-provide/1.png" alt="video">
+                            <div class="hover">
+                                <a href="https://www.youtube.com/watch?v=c7XEhXZ_rsk" class="video-play-btn mfp-iframe"><img src="assets/img/we-provide/3.svg" alt="video"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-widget widget widget_nav_menu">
-                        <h4 class="widget-title">Quick Link</h4>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-widget widget widget_nav_menu">
-                        <h4 class="widget-title">Need Help?</h4>
-                        <ul>
-                            <li><a href="#">FAQS</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Policy</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Documentation</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="footer-widget widget">
-                        <h4 class="widget-title">Latest News</h4>
-                        <div class="about_recent_post">
-                            <div class="media">
-                                <img src="assets/img/blog/widget1.png" alt="post">
-                                <div class="media-body">
-                                    <h6><a href="#">New Feature Added</a></h6>
-                                    <span>21 August 2019</span>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <img src="assets/img/blog/widget2.png" alt="post">
-                                <div class="media-body">
-                                    <h6><a href="#">Business Development</a></h6>
-                                    <span>21 August 2019</span>
-                                </div>
-                            </div>
-                       </div>
+                <div class="col-xl-5 col-lg-6 desktop-center-item">
+                    <div>
+                        <div class="section-title style-two">
+                            <h2 class="title">About<span> Specso Technologies</span></h2>
+                            <p>Riyaqas One of the best Software Development company. Riyaqas is at the forefront as the most innovative web development company. Our cost efficient and structured teamwork justifies our position. Our clients count on our offshore business solutions on a regular basis from concept.</p>
+                            <p>Design to development, testing & implementation, our team is here to support and guide you every step of the way. Riyaqas One of the best Software Development company.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="copyright-inner">
-        <div class="copyright-text">
-            &copy;2020 All rights reserved<a href="https://codingeek.net/" target="_blank">by <span>Specso Technologies.</span></a>
+    <!-- about area End -->
+
+    <!-- sbst service area start -->
+    <div class="sbst-service-area pd-top-80">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-10">
+                    <div class="section-title text-center">
+                        <h2 class="title">What We <span>Do?</span></h2>
+                        <p>Experion taps into the power of digital to develop custom software applications and products for industry domains.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row custom-gutters-20 justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-service-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/startup/service/3.svg" alt="service">
+                        </div>
+                        <h6>Web Development</h6>
+                        <p>Web Development is the base of the company , specso is essentially all about developing websites to provide every other buisness a platform to showcase their ideas and products.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-service-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/startup/service/4.svg" alt="service">
+                        </div>
+                        <h6>Apps Development</h6>
+                        <p>We Develop light weight easy to use Mobile Applications that supports a wide varitey of end-users (online as well as offline) using java and js stack. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-service-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/startup/service/2.svg" alt="service">
+                        </div>
+                        <h6>Software Development</h6>
+                        <p>Software Development is yet another core service of our company , we develop a scalable and user friendly solution that helps in making your life more easier and comfortable.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-service-2 text-center">
+                        <div class="thumb">
+                            <img src="assets/img/startup/service/1.svg" alt="service">
+                        </div>
+                        <h6>SEO, SMM</h6>
+                        <p>We provide a range of options for the Search Engine Optimization part including SERP (Search Engine Results Page ) Rankings .</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</footer>
-<!-- footer area end -->
+    <!-- sbst service area end -->
 
-<!-- back to top area start -->
-<div class="back-to-top">
-    <span class="back-top"><i class="fa fa-angle-up"></i></span>
-</div>
-<!-- back to top area end -->
+    <!-- team area Start -->
+    <div class="team-area-wrpper about-team-area-wrpper pd-top-112 mg-top-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-10">
+                    <div class="section-title text-center">
+                        <h2 class="title">Riyaqas Creative <span>Team</span></h2>
+                        <p>Riyaqas One of the best Software Development company. Riyaqas is at the forefront as the most innovative web development company. Our cost efficient and structured teamwork.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team-area text-center">
+            <div class="container">
+                <div class="row custom-gutters-20">
+                    <div class="col-lg-3 col-sm-6">
+                        
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team">
+                            <div class="thumb">
+                                <img src="assets/img/startup/team/ayush_tyagi.jpg" alt="team">
+                            </div>
+                            <h6><a href="#">Ayush Tyagi</a></h6>
+                            <span>Founder</span>
+                            <p>Riyaqas One of the best Software Development company.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team">
+                            <div class="thumb">
+                                <img src="assets/img/startup/team/shivani_dhyani.jpg" alt="team">
+                            </div>
+                            <h6><a href="#">Shivani Dhyani</a></h6>
+                            <span>Co-Founder</span>
+                            <p>Riyaqas One of the best Software Development company.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team area End -->
 
-    <!-- jquery -->
-    <script src="assets/js/jquery-2.2.4.min.js"></script>
-    <!-- popper -->
-    <script src="assets/js/popper.min.js"></script>
-    <!-- bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- magnific popup -->
-    <script src="assets/js/jquery.magnific-popup.js"></script>
-    <!-- wow -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- owl carousel -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- cssslider slider -->
-    <script src="assets/js/jquery.cssslider.min.js"></script>
-    <!-- waypoint -->
-    <script src="assets/js/waypoints.min.js"></script>
-    <!-- counterup -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- imageloaded -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- isotope -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- world map -->
-    <script src="assets/js/worldmap-libs.js"></script>
-    <script src="assets/js/worldmap-topojson.js"></script>
-    <script src="assets/js/mediaelement.min.js"></script>
-     <!-- main js -->
-    <script src="assets/js/main.js"></script>
-    <!-- codingeek -->
-    <script src="codingeek-link.js"></script>
-    <script src="../../codingeek-js/codingeek.js"></script>
-</body>
-
-<!-- Mirrored from codingeek.net/html/riyaqas/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 May 2020 07:51:48 GMT -->
-</html>
+    <!-- client area start -->
+    <div class="client-area pd-top-110">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-9">
+                    <div class="section-title style-two text-center">
+                        <h2 class="title">What Our <span>Client Say?</span></h2>
+                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests. Our support team will get assistance from AI-powered suggestions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="client-slider">
+                <div class="client-slider-item">
+                    <div class="media">
+                        <div class="media-left media-left-one">
+                            <img src="assets/img/client/4.png" alt="client">
+                        </div>
+                        <div class="media-body">
+                            <h6>Ashraf Ali</h6>
+                            <p>CEO of Kowcub</p>
+                        </div>
+                    </div>
+                    <p class="client-content">With Accountiee, you'll never find errors in your sales record even if thy are skyrocketing. And you'll be able to see all you transactions (UPI,Cash or credit) all at one place, Specso has impressed me by doing such a task in such small period of time .</p>
+                </div>
+                <div class="client-slider-item">
+                    <div class="media">
+                        <div class="media-left media-left-two">
+                            <img src="assets/img/client/5.png" alt="client">
+                        </div>
+                        <div class="media-body">
+                            <h6>Dr. Riju Kumar,</h6>
+                            <p>Owner, Sukhayu Hospital</p>
+                        </div>
+                    </div>
+                    <p class="client-content">Specso understand the requirements with great focus on detailed services , unlimited revisions and client satisfaction, what more can you ask for.</p>
+                </div>
+                <div class="client-slider-item">
+                    <div class="media">
+                        <div class="media-left media-left-three">
+                            <img src="assets/img/client/Mr.Ashok.jpg" alt="client">
+                        </div>
+                        <div class="media-body">
+                            <h6>Ashok Kumar</h6>
+                            <p>CEO , Sunlight Energy</p>
+                        </div>
+                    </div>
+                    <p class="client-content">Best thing about people at Specso is that they help you find the best solution in affordable price.</p>
+                </div>
+                <div class="client-slider-item">
+                    <div class="media">
+                        <div class="media-left media-left-three">
+                            <img src="assets/img/client/6.png" alt="client">
+                        </div>
+                        <div class="media-body">
+                            <h6>Cpt. Shubham Tyagi,</h6>
+                            <p>Indian Army</p>
+                        </div>
+                    </div>
+                    <p class="client-content">People at Specso create an atmosphere of unique ideas and edge cases that tests the product you want to the rarest conditions possible making it a sustainable long term solution </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- client area End -->
+    {% endblock %}
