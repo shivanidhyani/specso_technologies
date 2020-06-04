@@ -86,26 +86,26 @@
                          <li class="menu-item-has-children">
                             <a href="#">Products</a>
                             <ul class="sub-menu">
-                                <li><a href="accountiee_online_billing_software.html">Accountiee</a></li>
-                                <li><a href="dkaksha_online_classes_software.html">Dkaksha</a></li>
-                                <li><a href="spec+_artificial_software.html">Spec+</a></li>
-                                <li><a href="stack_erp_system.html">Stack</a></li>
-                                <li><a href="social_connect_automation_software.html">Social Connect</a></li>
+                                <li><a href="{% url 'accountiee' %}">Accountiee</a></li>
+                                <li><a href="{% url 'dkaksha' %}">Dkaksha</a></li>
+                                <li><a href="{% url 'specplus' %}">Spec+</a></li>
+                                <li><a href="{% url 'stack' %}">Stack</a></li>
+                                <li><a href="{% url 'social_connect' %}">Social Connect</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="web_development_services_of_specso_technologies.html"> Website Development</a></li>
-                                <li><a href="e_commerce_services_of_specso_technologies.html"> E-Commerce Development</a></li>
-                                <li><a href="software_development_services_of_specso_technologies.html"> Software Development </a></li>
-                                <li><a href="mobile_application_development_services_of_specso_technologies.html"> Mobile App Development </a></li>
-                                <li><a href="erp_system_development_services_of_specso_technologies.html"> ERP Systems </a></li> 
-                                <li><a href="database_development_services_of_specso_technologies.html">Database Management Systems</a></li>
-                                <li><a href="search_engine_optimization_services_of_specso_technologies.html"> Search Engine Optimization </a></li>
-                                <li><a href="social_media_marketing_services_of_specso_technologies.html"> Social Media Marketing </a></li>
-                                <li><a href="graphic_designing_services_of_specso_technologies.html"> Graphic Designing </a></li>
-                                <li><a href="web_hosting_services_of_specso_technologies.html"> Web Hosting </a></li>
+                                <li><a href="{% url 'web_development' %}"> Website Development</a></li>
+                                <li><a href="{% url 'e_commerce_development' %}"> E-Commerce Development</a></li>
+                                <li><a href="{% url 'software_development' %}"> Software Development </a></li>
+                                <li><a href="{% url 'mobile_application_development' %}"> Mobile App Development </a></li>
+                                <li><a href="{% url 'erp_development' %}"> ERP Systems </a></li> 
+                                <li><a href="{% url 'database_management' %}">Database Management Systems</a></li>
+                                <li><a href="{% url 'search_engine_optimization' %}"> Search Engine Optimization </a></li>
+                                <li><a href="{% url 'social_media_marketing' %}"> Social Media Marketing </a></li>
+                                <li><a href="{% url 'graphic_designing_services' %}"> Graphic Designing </a></li>
+                                <li><a href="{% url 'web_hosting_services' %}"> Web Hosting </a></li>
                             </ul>
                         </li>
                         <li>
@@ -128,7 +128,7 @@
                             <i class="ti-search"></i>
                         </li>
                         <li class="menu-item">
-                            <a href="login.html" class="login-button"><i class="fa fa-sign-in"></i> Login/Register</a>
+                            <a href="{% url 'login' %}" class="login-button"><i class="fa fa-sign-in"></i> Login/Register</a>
                         </li>
                     </ul>
                 </div>
