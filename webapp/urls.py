@@ -19,7 +19,6 @@ urlpatterns = [
 				path('social_media_marketing_services', views.contact, name='social_media_marketing'),
 				path('graphic_designing_services', views.contact, name='graphic_designing'),
 				path('web_hosting_services', views.contact, name='web_hosting'),
-				path('blogs_of_specso_technologies', views.blog, name='blog'),
 				path('career_with_specso_technologies', views.career, name='career'),
 				path('projects_by_specso_technologies', views.ourwork, name='ourwork'),
 				path('contact_specso_technologies', views.contact, name='contact'),

@@ -49,9 +49,6 @@ def graphic_designing(request):
 def web_hosting(request):
     return render(request, 'web_hosting_services_of_specso_technologies.html')
 
-def blog(request):
-    return render(request, 'blog_specso_technologies_software_development_company_in_india.html')
-
 def career(request):
     return render(request, 'career_specso_technologies_software_development_company_in_india.html')
 
