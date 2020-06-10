@@ -1,0 +1,36 @@
+{% extends 'templatings.html' %}
+{% load static %}
+	{% block header %}
+	{% endblock %}
+	{% block content %}
+	<div class="brk-header-mobile">
+		<div class="brk-header-mobile__open brk-header-mobile__open_white">
+			<span></span>
+		</div>
+		<div class="brk-header-mobile__logo">
+			<a href="#">
+				<img class="brk-header-mobile__logo-1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/logo-2.png" alt="alt">
+				<img class="brk-header-mobile__logo-2 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/logo-dark-2.png" alt="alt">
+			</a>
+		</div>
+	</div>
+	<div class="main-wrapper">
+		<main class="main-container">
+			<section class="brk-backgrounds brk-base-bg-gradient-19 full-screen d-flex flex-column align-items-center justify-content-center" data-brk-library="component__backgrounds_css,assets_fss">
+				<div id="fss" class="brk-backgrounds__canvas"></div>
+				<div class="brk-backgrounds__content">
+					<div class="container">
+						<div class="maxw-770 pt-80 pb-80">
+							<h2 class="font__family-montserrat font__weight-bold text-white brk-error-page-title">404</h2>
+							<hr class="brk-dashed-border-transparent mt-25 mb-50">
+							<h3 class="font__family-montserrat font__size-48 line__height-52 text-white text-center mb-10">
+								<span class="font__weight-bold">Oops! </span>
+								<span class="font__weight-light">That page can&#x2019;t be found.</span>
+							</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+{% endblock %}

@@ -1,1 +1,0 @@
-$codingeek="https://codingeek.net/"; $buynow="https://themeforest.net/item/riyaqas-sass-html-template/24803878";

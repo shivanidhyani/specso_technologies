@@ -1,0 +1,477 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" data-brk-skin="{% static 'css/brk-blue.css' %}">
+	<head>
+		{% block metatag %}
+		
+		{% endblock %}
+		<link rel="stylesheet" id="brk-direction-bootstrap" href="{% static 'css/assets/bootstrap.css' %}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" id="brk-skin-color" href="{% static 'css/skins/brk-blue.css' %}">
+		<link id="brk-base-color" rel="stylesheet" href="{% static 'css/skins/brk-base-color.css' %}">
+		<link rel="stylesheet" id="brk-direction-offsets" href="{% static 'css/assets/offsets.css' %}">
+		<link id="brk-css-min" rel="stylesheet" href="{% static 'css/assets/style.css' %}">
+		<link id="brk-css-min" rel="stylesheet" href="{% static 'css/assets/styles.min.css' %}">
+		<link rel="stylesheet" href="{% static 'vendor/revslider/css/settings.css' %}">
+		<link rel="stylesheet" href="{% static 'css/components/sequence.css' %}">
+		<link rel="stylesheet" href="{% static 'css/components/testimonials.css' %}">
+		<link rel="stylesheet" href="{% static 'css/components/services.css' %}">
+		<link rel="stylesheet" href="{% static 'css/components/sliders.css' %}">
+		<link rel="stylesheet" href="{% static 'css/assets/brk-header-elements.css' %}">
+		<link  href="{% static 'css/fonts/berserk/berserk.woff' %}">
+		<link  href="{% static 'css/fonts/berserk/berserk.ttf' %}">
+		<script  src="{% static 'vendor/jquery/js/jquery.min.js' %}"></script>
+		<script  src="{% static 'js/scripts.js' %}"></script>
+	</head>
+	<body>
+		<style> #rev_slider_7_1_wrapper .tp-loader.spinner2{ background-color: #0071fc !important; } </style>
+		<style>.brk-btn-revs-video{border:solid 2px rgba(255,255,255,.14);font-family:Montserrat;text-transform:uppercase;text-decoration:none;font-size:15px;line-height:70px;color:#fff;font-weight:400;width:290px;height:70px;border-radius:37px;display:block;text-align:right;padding-right:41px;position:relative}.brk-btn-revs-video__wr-icon{position:absolute;top:50%;left:3px;transform:translateY(-50%);width:64px;height:64px;border-radius:50%;background-color:#fff;box-shadow:0 5px 16px rgba(0,0,0,.3)}.brk-btn-revs-video__wr-icon:before{content:'';position:absolute; top:-33px; left:-33px; right:-33px; bottom:-33px; transform:scale(1); opacity:.1; background-color:#fff; border-radius:50%; z-index:-1}.brk-btn-revs-video__wr-icon:after{content:''; position:absolute; top:-16px; left:-16px; right:-16px; bottom:-16px; opacity:.2; background-color:#fff; border-radius:50%; z-index:-1}.brk-btn-revs-video:hover .brk-btn-revs-video__wr-icon:before{animation:pulse-paused 1s ease-in infinite; animation-delay:0.2s}.brk-btn-revs-video:hover .brk-btn-revs-video__wr-icon:after{animation:pulse-paused 1s ease-in infinite}@-webkit-keyframes pulse-paused{0%{-webkit-transform:scale(1);   transform:scale(1)}20%{-webkit-transform:scale(1.2);   transform:scale(1.2)}60%{-webkit-transform:scale(0.9);   transform:scale(0.9);  opacity:0}100%{-webkit-transform:scale(1);   transform:scale(1)}}@keyframes pulse-paused{0%{-webkit-transform:scale(1);   transform:scale(1)}20%{-webkit-transform:scale(1.2);   transform:scale(1.2)}60%{-webkit-transform:scale(0.9);   transform:scale(0.9);  opacity:0}100%{-webkit-transform:scale(1);   transform:scale(1)}}.brk-btn-revs-video__icon{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:15px solid var(--brand-primary,#2775ff)}.brk-classic.tp-bullets{width:auto !important; display:flex; align-items:center; justify-content:center; box-sizing:border-box}.brk-classic.tp-bullets:before{content:''}.brk-classic .tp-bullet{position:relative !important; left:0 !important; background-color:transparent !important; float:left; width:12px; height:12px; border-radius:50%; border:1px solid transparent; margin:0 5px; padding:0; cursor:pointer}.brk-classic .tp-bullet:before{content:''; width:9px; height:9px; border:1px solid #fff; border-radius:50%; cursor:pointer; color:transparent; transition-property:width,height; transition-duration:.2s; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background-color:#2775FF}.brk-classic .tp-bullet:hover,.brk-classic .tp-bullet.selected{border-color:#a2a2a2; background-color:#fff !important}.brk-classic .tp-bullet:hover:before,.brk-classic .tp-bullet.selected:before{width:0; height:0; border:none}</style>
+			<style>.mt--230{margin-top: -230px;}@media (max-width: 991px){.mt--230{margin-top: 70px;}}.mt--337{margin-left: -337px;}@media (max-width: 1199px){.mt--337{margin-left: 0;}}@media (min-width: 1230px) {.image-map-creative_agency{width: 170%;left: -47%;top: 33px !important;}.image-map-desc-creative_agency {padding-top: 22% !important;padding-bottom: 12.5% !important;}}
+		</style>
+		<script>function setREVStartSize(e){
+  		try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+    	if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+  		}catch(d){console.log("Failure at Presize of Slider:"+d)}
+		};
+		</script>
+		<div class="main-page">
+			<div class="brk-header-mobile">
+				<div class="brk-header-mobile__open brk-header-mobile__open_white">
+					<span></span>
+				</div>
+				<div class="brk-header-mobile__logo">
+					<a href="#">
+						<img class="brk-header__logo-1" src="{% static 'images/logo.png' %}" alt="alt">
+						<img class="brk-header-mobile__logo-2" src="{% static 'images/logo.png' %}" alt="alt">
+					</a>
+				</div>
+			</div>
+			<header class="brk-header d-lg-flex flex-column brk-header_style-1 brk-header_color-dark" style="display: none;" data-logo-src="img/logo-dark-2.png" data-bg-mobile="img/brk-bg-mobile-menu.jpg" data-sticky-hide="0" data-brk-library="component__header">
+				<div class="brk-header__top-bar brk-header_border-bottom order-lg-1 order-2 brk-bg-grad brk-header__top-bar_hide brk-header__top-bar_color-white" data-top="3" style="height: 46px;">
+					<div class="brk-header__title font__family-montserrat font__weight-bold">Contact Us</div>
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-lg-6 align-self-lg-stretch text-left">
+								<div class="brk-header__element brk-header__element_skin-1 brk-header__item">
+									<a href="mailto:specsotechnologies@gmail.com" class="brk-header__element--wrap">
+										<i class="far fa-envelope"></i>
+										<span class="brk-header__element--label">specsotechnologies@gmail.com</span>
+									</a>
+								</div>
+								<div class="brk-header__element brk-header__element_skin-1 brk-header__item">
+									<a href="tel:8077600748" class="brk-header__element--wrap">
+										<i class="far fa-envelope"></i>
+										<span class="brk-header__element--label">+91 8077600748</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-6 align-self-lg-stretch text-left text-lg-right">
+								<div class="brk-header__element brk-header__element_skin-1 brk-header__item">
+									<a href="checkout.html" class="brk-header__element--wrap">
+										<i class=" fab fa-facebook-f" aria-hidden="true"></i>
+									</a>
+								</div>
+								<div class="brk-header__element brk-header__element_skin-1 brk-header__item">
+									<a href="checkout.html" class="brk-header__element--wrap">
+										<i class="fab fa-instagram" aria-hidden="true"></i>
+									</a>
+								</div>
+								<div class="brk-header__element brk-header__element_skin-1 brk-header__item">
+									<a href="checkout.html" class="brk-header__element--wrap">
+										<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+									</a>
+								</div>
+								<div class="brk-header__element brk-header__element_skin-1 brk-header__item">
+									<a href="shop-components-compare.html" class="brk-header__element--wrap">
+										<i class="fab fa-twitter" aria-hidden="true"></i>
+									</a>
+								</div>
+								<div class="brk-header__element brk-header__element_skin-1 brk-header__item">
+									<a href="checkout.html" class="brk-header__element--wrap">
+										<i class="fab fa-youtube" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="brk-header__main-bar brk-header_border-bottom order-lg-2 order-1 bg-white" style="height: 72px;">
+					<div class="container-fluid">
+						<div class="row no-gutters align-items-center">
+							<div class="col-lg-auto align-self-lg-stretch d-none d-lg-block">
+								<div class="brk-open-top-bar brk-header__item">
+									<div class="brk-open-top-bar__circle"></div>
+									<div class="brk-open-top-bar__circle"></div>
+									<div class="brk-open-top-bar__circle"></div>
+								</div>
+							</div>
+							<div class="col-lg align-self-lg-stretch">
+								<nav class="brk-nav brk-header__item">
+									<ul class="brk-nav__menu">
+										<li class="brk-nav__children brk-nav__drop-down-effect">
+											<a href="{% url 'about' %}"><span>About</span></a></li>
+										<li class="brk-nav__children brk-nav__drop-down-effect">
+											<a href="#">
+												<span>Products</span>
+											</a>
+											<ul class="brk-nav__sub-menu brk-nav-drop-down font__family-montserrat">
+												<li class="dd-effect">
+													<a href="{% url 'accountiee' %}">Accountiee</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'dkaksha' %}">Dkaksha</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'social_connect' %}">Social Connect</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'specplus' %}">Spec +</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'stack' %}l">Stackt</a>
+												</li>
+											</ul>
+										</li>
+										<li class="brk-nav__children brk-nav__drop-down-effect">
+											<a href="#">
+												<span>Services</span>
+											</a>
+											<ul class="brk-nav__sub-menu brk-nav-drop-down font__family-montserrat">
+												<li class="dd-effect">
+													<a href="{% url 'web_development' %}">Website Development</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'software_development' %}">Software Development</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'mobile_application_development' %}">Mobile Application Development</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'erp_development' %}">ERP Systems </a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'database_management' %}">Database Management Systems</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'digital_marketing' %}">Digital Marketing</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'graphic_designing' %}">Graphic Designing</a>
+												</li>
+												<li class="dd-effect">
+													<a href="{% url 'web_hosting' %}">Web Hosting</a>
+												</li>
+											</ul>
+										</li>
+										<li class="brk-nav__children brk-nav__drop-down-effect">
+											<a href="{% url 'ourwork' %}">
+												<span>Our Work</span>
+											</a>
+										</li>
+										<li class="brk-nav__children brk-nav__drop-down-effect">
+											<a href="{% url 'contact' %}">
+												<span>Contact</span>
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="col-lg-2 align-self-lg-center d-none d-lg-block">
+								<div class="text-center">
+									<a href="" class="brk-header__logo brk-header__item @@modifier">
+										<img class="brk-header__logo-1" src="{% static 'images/logo.png' %}" alt="alt">
+										<img class="brk-header__logo-2" src="{% static 'images/logo.png' %}" alt="alt">
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-5 align-self-lg-stretch text-lg-right">
+								<div class="brk-call-us brk-header__item">
+									<a href="#" class="brk-call-us__number"><i class="fas fa-sign-in-alt" aria-hidden="true"></i>Login/Register</a>
+									<a href="#" class="brk-call-us__link"><i class="fas fa-sign-in-alt" aria-hidden="true"></i></a>
+								</div>
+								<div class="brk-social-links brk-header__item">
+									<div class="brk-social-links__open">
+										<i class="fa fa-share-alt"></i>
+										<div class="brk-social-links__title">Share our website</div>
+									</div>
+									<div class="brk-social-links__block">
+										<div class="brk-social-links__header">
+											<span class="font__family-montserrat font__weight-bold font__size-18">Share our website</span>
+										</div>
+										<div class="brk-social-links__content">
+											<a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+											<a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+											<a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+											<a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+											<a href="#"><i class="fab fa-vimeo-square" aria-hidden="true"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="brk-search brk-header__item">
+									<div class="brk-search__open">
+										<i class="fa fa-search" aria-hidden="true"></i>
+										<div class="brk-search__title">Search website</div>
+									</div>
+									<div class="brk-search__block">
+										<div class="brk-search__header">
+											<span class="font__family-montserrat font__weight-bold font__size-18">Search</span>
+										</div>
+										<form class="brk-search__form" role="search" method="get" action="#">
+											<input name="s" maxlength="50" type="search" value="" placeholder="Enter search text">
+											<button type="submit"><i class="fas fa-search"></i></button>
+										</form>
+										<span class="brk-search__close font__family-montserrat font__weight-medium">Close <i class="fas fa-times"></i></span>
+									</div>
+								</div>
+								<div class="brk-info-menu-open brk-info-menu-open_skin-1 brk-header__item">
+									<span class="brk-lines">
+										<span class="brk-center-line"></span>
+									</span>
+									<div class="brk-info-menu-open__title">Side Menu</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="brk-info-menu">
+				<div class="brk-info-menu__bar">
+					<button class="brk-info-menu__close"></button>
+					<h3 class="brk-info-menu__header font__family-montserrat font__weight-bold font__size-21">More info</h3>
+					<div class="brk-categories mb-20" data-brk-library="component__widgets">
+						<div class="brk-categories__list font__family-open-sans font__size-14 font__weight-normal">
+							<a href="#" class="brk-categories__item">
+								<span class="brk-categories__item-name">General</span>
+								<span class="brk-categories__item-count">12</span>
+							</a>
+							<a href="#" class="brk-categories__item active">
+								<span class="brk-categories__item-name">Mockups</span>
+								<span class="brk-categories__item-count">14</span>
+							</a>
+							<a href="#" class="brk-categories__item">
+								<span class="brk-categories__item-name">HTML &amp; CSS</span>
+								<span class="brk-categories__item-count">18</span>
+							</a>
+							<a href="#" class="brk-categories__item">
+								<span class="brk-categories__item-name">Logo</span>
+								<span class="brk-categories__item-count">21</span>
+							</a>
+							<a href="#" class="brk-categories__item">
+								<span class="brk-categories__item-name">Web Design</span>
+								<span class="brk-categories__item-count">6</span>
+							</a>
+						</div>
+					</div>
+					<h3 class="brk-info-menu__header font__family-montserrat font__weight-bold font__size-21">Our instagram</h3>
+					<div class="default-slider dots-base-skin dots-base-color slick-loading mt-15" data-slick="{&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;dots&quot;: true, &quot;autoplay&quot;: false, &quot;autoplaySpeed&quot;: 4000}" data-brk-library="slider__slick">
+						<div>
+							<div class="brk-header-slider">
+								<div class="brk-header-slider__img">
+									<img src="img/309x206_1.jpg" alt="alt">
+								</div>
+								<div class="brk-header-slider__content">
+									<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/head-icon.png" alt="alt">
+									<div class="brk-header-slider__content--title">
+										<h4 class="font__family-montserrat font__weight-bold font__size-16">@berserk</h4>
+										<span class="font__size-14">17 Hours ago</span>
+									</div>
+								</div>
+								<p class="brk-header-slider__text font__size-14 line__height-21">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+									ante, dapibus in, viverra</p>
+							</div>
+						</div>
+						<div>
+							<div class="brk-header-slider">
+								<div class="brk-header-slider__img">
+									<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/309x206_2.jpg" alt="alt">
+								</div>
+								<div class="brk-header-slider__content">
+									<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/head-icon.png" alt="alt">
+									<div class="brk-header-slider__content--title">
+										<h4 class="font__family-montserrat font__weight-bold font__size-16">@berserk</h4>
+										<span class="font__size-14">17 Hours ago</span>
+									</div>
+								</div>
+								<p class="brk-header-slider__text font__size-14 line__height-21">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+									ante, dapibus in, viverra</p>
+							</div>
+						</div>
+						<div>
+							<div class="brk-header-slider">
+								<div class="brk-header-slider__img">
+									<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/309x206_3.jpg" alt="alt">
+								</div>
+								<div class="brk-header-slider__content">
+									<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/head-icon.png" alt="alt">
+									<div class="brk-header-slider__content--title">
+										<h4 class="font__family-montserrat font__weight-bold font__size-16">@berserk</h4>
+										<span class="font__size-14">17 Hours ago</span>
+									</div>
+								</div>
+								<p class="brk-header-slider__text font__size-14 line__height-21">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+									ante, dapibus in, viverra</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% block content %}
+
+	        {% endblock %}
+	        <footer class="brk-footer position-relative" data-brk-library="component__footer">
+				<div class="brk-footer__wrapper pt-30 pt-90 mt-30">
+					<img src="{% static 'img/footer/bg-4.jpg' %}" alt="alt" class="brk-abs-img">
+					<span class="brk-abs-overlay brk-bg-color-dark"></span>
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-sm-6 col-lg-4">
+								<h6 class="sr-only">About us</h6>
+								<a href="#" class="d-sm-inline-block d-block text-center">
+									<img src="{% static 'images/logo.png' %}" alt="alt">
+								</a>
+								<hr class="horiz-line mt-25">
+								<p class="brk-dark-font-color-3 font__family-open-sans font__size-14 line__height-24 mb-50 pr-lg-4 text-sm-left text-center">
+									Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra fequis.
+								</p>
+							</div>
+							<div class="col-12 col-sm-6 col-lg-4">
+								<h6 class="brk-white-font-color font__family-open-sans font__size-24 line__height-32 text-center text-sm-left">Menu</h6>
+								<hr class="horiz-line mt-25">
+								<nav>
+									<div class="row">
+										<div class="col-6">
+											<ul class="d-flex flex-column font__family-open-sans brk-dark-font-color-3 font__size-14 font__weight-normal line__height-16 text-sm-left text-center">
+												<li class="mb-20"><a href="#">Home</a></li>
+												<li class="mb-20"><a href="#">Pages</a></li>
+												<li class="mb-20"><a href="#">Elements</a></li>
+											</ul>
+										</div>
+										<div class="col-6">
+											<ul class="d-flex flex-column font__family-open-sans brk-dark-font-color-3 font__size-14 font__weight-normal line__height-16 text-sm-left text-center">
+												<li class="mb-20"><a href="#">Portfolio</a></li>
+												<li class="mb-20"><a href="#">Blog</a></li>
+												<li class="mb-20"><a href="#">Shop</a></li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+							</div>
+							<div class="col-12 col-sm-12 col-lg-4">
+								<article class="brk-get-in-touch brk-get-in-touch_footer pt-40 pb-30 pl-30 pr-30 position-static position-lg-relative mt-xs-20">
+									<h6 class="font__family-montserrat font__size-28 font__weight-bold line__height-30 text-uppercase pl-10">Get in Touch <br><span class="font__weight-light">with us</span></h6>
+									<form action="#" class="brk-subscribe-mail brk-subscribe-mail_dark brk-form-strict" data-brk-library="component__form,recaptcha">
+										<input type="text" placeholder="Name" name="FNAME">
+										<input type="email" placeholder="Email" name="EMAIL">
+										<button class="btn btn-inside-out btn-lg btn-icon mt-30 border-radius-0 font__family-open-sans font__weight-bold text-uppercase btn-icon-abs ml-0 mr-0 mb-0 w-100 btn-shadow" data-brk-library="component__button">
+											<i class="fa fa-comments" aria-hidden="true"></i>
+											<span class="before">Button</span><span class="text">Click Me</span><span class="after">Button</span>
+										</button>
+									</form>
+								</article>
+							</div>
+						</div>
+					</div>
+					<div class="brk-footer__rights_footer-9 bg-primary">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-lg-8 col-md-6 col-12">
+									<p class="brk-white-font-color font__family-open-sans font__size-14 pt-15 pb-15 text-lg-left text-center">
+										&#xA9; 2018 Berserk All rights reserved
+									</p>
+								</div>
+								<div class="col-lg-4 col-md-6 col-12">
+									<div class="position-relative brk-footer__socials-bg z-index-2 pl-lg-35 d-flex align-items-center flex-wrap justify-content-center justify-content-lg-start">
+										<p class="brk-white-font-color font__family-open-sans font__size-14 font__weight-semibold mr-20">Socials</p>
+										<div class="brk-social-links font__size-13 brk-white-font-color brk-social-links_opacity" data-brk-library="component__social_links">
+											<a href="#" class="brk-social-links__item">
+												<i class="fab fa-twitter"></i>
+											</a>
+											<a href="#" class="brk-social-links__item">
+												<i class="fab fa-instagram"></i>
+											</a>
+											<a href="#" class="brk-social-links__item">
+												<i class="fab fa-google-plus-g"></i>
+											</a>
+											<a href="#" class="brk-social-links__item">
+												<i class="fab fa-youtube"></i>
+											</a>
+											<a href="#" class="brk-social-links__item">
+												<i class="fab fa-vimeo"></i>
+											</a>
+											<a href="#" class="brk-social-links__item">
+												<i class="fab fa-vk"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<a href="#top" id="toTop"></a>
+		<script defer="defer" src="js/scripts.min.js"></script>
+		<script defer="defer" src="vendor/revslider/js/jquery.themepunch.tools.min.js"></script>
+		<script defer="defer" src="vendor/revslider/js/jquery.themepunch.revolution.min.js"></script>
+		<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.actions.min.js"></script>
+		<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.navigation.min.js"></script>
+		<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.parallax.min.js"></script>
+		<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script>
+			var revapi24,
+				tpj;
+			(function() {
+				if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
+				else onLoad();
+
+				function onLoad() {
+					if (tpj === undefined) {
+						tpj = jQuery;
+						if ("on" == "on") tpj.noConflict();
+					}
+					if (tpj("#rev_slider_24_1").revolution == undefined) {
+						revslider_showDoubleJqueryError("#rev_slider_24_1");
+					} else {
+						revapi24 = tpj("#rev_slider_24_1").show().revolution({
+							sliderType: "hero",
+							jsFileLocation: "vendor/revslider/js/",
+							sliderLayout: "fullwidth",
+							dottedOverlay: "none",
+							delay: 5000,
+							navigation: {},
+							responsiveLevels: [1240, 1024, 778, 480],
+							visibilityLevels: [1240, 1024, 778, 480],
+							gridwidth: [1200, 992, 768, 576],
+							gridheight: [1200, 768, 960, 720],
+							lazyType: "none",
+							parallax: {
+								type: "mouse",
+								origo: "slidercenter",
+								speed: 800,
+								speedbg: 0,
+								speedls: 0,
+								levels: [4, 6, 8, 10, 12, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+								disable_onmobile: "on"
+							},
+							shadow: 0,
+							spinner: "spinner2",
+							autoHeight: "off",
+							disableProgressBar: "on",
+							hideThumbsOnMobile: "off",
+							hideSliderAtLimit: 0,
+							hideCaptionAtLimit: 0,
+							hideAllCaptionAtLilmit: 0,
+							debugMode: false,
+							fallbacks: {
+								simplifyAll: "off",
+								disableFocusListener: false,
+							}
+						});
+					}; /* END OF revapi call */
+				}; /* END OF ON LOAD FUNCTION */
+			}()); /* END OF WRAPPING FUNCTION */
+		</script>
+	</body>
+</html>
