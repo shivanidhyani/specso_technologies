@@ -1,36 +1,26 @@
-{% extends 'templating.html' %}
+<!DOCTYPE html>
+<html lang="en" data-brk-skin="brk-blue.css">
 {% load static %}
-	{% block header %}
-	{% endblock %}
-	{% block content %}
-	<!-- Settings Panel Start here-->
-	<div class="brk-theme-options" data-brk-library="brk-customizer">
-		<div class="brk-theme-options__panel">
-			<a href="javascript:void(0)" class="panel-open brk-theme-options__panel-link"><i class="fal fa-cog"></i></a>
-			<a href="{% url 'index' %}" target="_blank" class="brk-theme-options__panel-link"><i class="fal fa-shopping-cart"></i></a>
-			<a href="#" target="_blank" class="brk-theme-options__panel-link"><i class="fal fa-play-circle"></i></a> 
-			<a href="#" target="_blank" class="brk-theme-options__panel-link"><i class="fal fa-comment-alt"></i></a></div>
-		<div class="brk-theme-options__control">
-			<div class="brk-theme-options__header"><span class="font__family-montserrat font__weight-bold font__size-21 pl-30">Site Options</span>
-				<div class="brk-theme-options__close panel-close"><i class="far fa-times"></i></div>
-			</div>
-			<div class="accordion accordion-slider-min" role="tablist" aria-multiselectable="true">
-				<div class="card"><a class="card-header collapsed" role="tab" id="heading_option_4" data-toggle="collapse" data-parent=".accordion-slider-min" href="#option_4" aria-expanded="false" aria-controls="option_4">
-					<h5 class="mb-0 font__family-montserrat font__weight-light font__size-21 line__height-22">Skin</h5>
-					<div class="card-toggle-icon"><span class="before"></span> <span class="after"></span></div>
-				</a>
-				<div id="option_4" class="collapse" role="tabpanel" aria-labelledby="heading_option_4">
-					<div class="card-block">
-						<div class="brk-theme-options__color">
-							<div class="brk-theme-options__color-row"><label class="brk-theme-options__color-radio" data-skin="brk-blue" style="--oc: #3f96f7"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-dark-blue" style="--oc: #0f5ae0"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-dark-blue-1" style="--oc: #2067dc"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-green" style="--oc: #08d75f"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-green-1" style="--oc: #00e0dd"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-purple" style="--oc: #9f1dac"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-purple-pink" style="--oc: #815ce3"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-pink" style="--oc: #f83365"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-red" style="--oc: #ff2775"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-red-demo" style="--oc: #ef0000"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-yellow" style="--oc: #fdb415"><span></span> <i class="fal fa-check"></i></label> <label class="brk-theme-options__color-radio" data-skin="brk-gray-yellow" style="--oc: #d0a05e"><span></span> <i class="fal fa-check"></i></label></div>
-						</div>
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- settings panel ends here-->
+<head>
+	<title>Login - Berserk HTML</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="favicon.ico">
+	<meta name="theme-color" content="#2775FF">
+	<meta name="keywords" content="themeforest, theme, html, template">
+	<meta name="description" content="themeforest, theme, html, template">
+	<link rel="stylesheet" id="brk-direction-bootstrap" href="{% static 'css/assets/bootstrap.css' %}">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" id="brk-skin-color" href="{% static 'css/skins/brk-blue.css' %}">
+	<link id="brk-base-color" rel="stylesheet" href="{% static 'css/skins/brk-base-color.css' %}">
+	<link rel="stylesheet" id="brk-direction-offsets" href="{% static 'css/assets/offsets.css' %}">
+	<link id="brk-css-min" rel="stylesheet" href="{% static 'css/assets/styles.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/components/backgrounds.css' %}">
+</head>
+
+<body>
 	<div class="main-wrapper">
 		<main class="main-container">
 			<section>
@@ -41,7 +31,7 @@
 								<div class="brk-backgrounds__canvas brk-particles-standart"></div>
 							</div>
 							<a href="index.html" class="z-index-2 mb-60 pl-15 pr-15">
-								<img src="{% static 'specso/STB.png' %}" alt="logo" class="">
+								<img src="{% static 'images/logo.png' %}" alt="logo" class="">
 							</a>
 							<a href="{% url 'index' %}" class="btn-backgrounds btn-backgrounds_transparent btn-backgrounds_left-icon font__family-montserrat font__weight-normal text-uppercase font__size-13 z-index-2 text-center" style="padding-left:85px; padding-right: 60px;" data-brk-library="component__button">
 								<span class="text">Back to the Homepage</span>
@@ -56,10 +46,9 @@
 									<div class="col-lg-2 d-none d-lg-block"></div>
 									<div class="col-12 col-lg-10">
 										<h1 class="font__family-montserrat font__weight-bold font__size-42 line__height-42 mt-0 mb-45 text-center text-lg-left">LOGIN</h1>
-										<form action="{% url 'login' %}" method="POST" class="brk-form brk-form-strict maxw-570 mx-auto mx-lg-0" data-brk-library="component__form">
-											{% csrf_token %}
-											<input type="text" name="Username" placeholder="Username or Email Address">
-											<input type="password" name="Password" placeholder="Password">
+										<form action="#" class="brk-form brk-form-strict maxw-570 mx-auto mx-lg-0" data-brk-library="component__form">
+											<input type="text" placeholder="Username or Email Address">
+											<input type="password" placeholder="Password">
 											<div class="no-margin pl-10 pr-10 mb-30 mt-40 d-flex flex-wrap justify-content-between align-items-center">
 												<div>
 													<input id="checkbox-strict-1" name="checkbox" type="checkbox" value="1" checked="checked">
@@ -70,7 +59,7 @@
 												</div>
 											</div>
 											<div class="d-flex flex-wrap justify-content-between align-items-center flex-column flex-lg-row">
-												<button  type="submit"  class="btn-backgrounds btn-backgrounds btn-backgrounds_280 btn-backgrounds_white btn-backgrounds_left-icon font__family-montserrat font__weight-bold text-uppercase font__size-13 z-index-2 text-center letter-spacing-20 mt-10" data-brk-library="component__button">
+												<button class="btn-backgrounds btn-backgrounds btn-backgrounds_280 btn-backgrounds_white btn-backgrounds_left-icon font__family-montserrat font__weight-bold text-uppercase font__size-13 z-index-2 text-center letter-spacing-20 mt-10" data-brk-library="component__button">
 													<span class="text">Login Now</span>
 													<span class="before"><i class="far fa-hand-point-right"></i></span>
 												</button>
@@ -89,4 +78,10 @@
 			</section>
 		</main>
 	</div>
-{% endblock %}
+	<a href="#top" id="toTop"></a>
+	<script defer="defer" src="{% static 'js/scripts.min.js' %}"></script>
+	<script defer="defer" src="{% static 'js/components/backgrounds.js' %}"></script>
+ 	<script defer="defer" src="{% static 'js/assets/jquery.particleground.min.js' %}"></script>
+</body>
+
+</html>
